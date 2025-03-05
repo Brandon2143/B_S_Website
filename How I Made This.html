@@ -19,11 +19,11 @@ ul {
   justify-content: center; /* Centers items horizontally */
 }
 
-li {
+UL li {
   float: left;
 }
 
-li a {
+UL li a {
   display: block;
   color: white;
   text-align: center;
@@ -31,8 +31,27 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+UL li a:hover {
   background-color: purple;
+}
+ol {
+  margin: 50px auto; /* Adds space between navbar and list */
+  padding: 0;
+  width: fit-content; /* Centers the list */
+}
+
+ol li {
+  margin-bottom: 10px; /* Adds spacing between list items */
+}
+
+/* Ensure links within <ol> are styled properly */
+ol a {
+  color: blue;
+  text-decoration: none;
+}
+
+ol a:hover {
+  text-decoration: underline;
 }
 </style>
 <body>
