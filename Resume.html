@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
 <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  position: sticky; /* Sticky position */
+  top: 0; /* Stick to the top of the page */
+  border-radius: 50px;
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: purple;
+}
 
 </style>
 <body>
-<iframe src="Brandon.Sawyer_Resume_2025.pdf" width="100%" height="600px"></iframe>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Projects.html">Projecs</a></li>
+  <li><a href="Resume.html">Resume</a></li>
+  <li><a href="How I Made This.html">How I Made This Site?</a></li>
+</ul>
+  
+<iframe src="Brandon.Sawyer_Resume_2025.pdf" width="100%" height="100%"></iframe>
 </body>
 </html>
