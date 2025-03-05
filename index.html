@@ -1,49 +1,92 @@
 <!DOCTYPE html>
-<!--
 <html>
 <head>
 <style>
-body {background-color: black;}
-h1 {
-  color: rgba(105, 75, 178, 1);
-  font-family: verdana;
-  font-size: 300%;
+body {
+  background-color: black;
 }
-p {
-  color: white;
-  font-family: courier;
-  font-size: 160%;
+.sidebar {
+  width: 300px;
+  height: 600px;
+  background-color: #999998;
+  border-radius: 50px;
+  padding: 20px;
+  position: fixed;
+  left: 20px; /* Moves it to the right */
+  top: 100px; /* Moves it down */
 }
-a:link, a:visited {
-  background-color: #f44336;
+.midbar {
+  width: 300px;
+  height: 200px;
+  background-color: #999998;
+  border-radius: 10px;
+  padding: 20px;
+  position: fixed;
+  left: 850px; /* Moves it to the right */
+  top: 100px; /* Moves it down */
+}
+#embed-container {
+      position: absolute; /* Position the container absolutely */
+      top: 100; /* Align to the top of the page */
+      left: 50; /* Align to the left of the page */
+    }
+p, h2 {
   color: white;
-  padding: 15px 25px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  position: sticky; /* Sticky position */
+  top: 0; /* Stick to the top of the page */
+  border-radius: 50px;
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 15px;
   text-decoration: none;
-  display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: red;
+li a:hover {
+  background-color: purple;
 }
+
+
 </style>
-</head>
 <body>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">Projecs</a></li>
+  <li><a href="#news">Resume</a></li>
+  <li><a href="#about">How I Made This Site?</a></li>
+</ul>
 
-<h1 style="text-align:center;">Brandon Sawyer</h1>
-<p style="text-align:center;">MINE <br> <img src="https://i.pinimg.com/736x/8b/9d/ce/8b9dce7d53ba91cb5253474234a75c2c.jpg" alt="Xavier" width="500" height="600"> </p>
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+
+
+<aside class=midbar>
+<p style="text-align:center;">  Listen to my fav artsist as your reeding ^_^</p>
+<div id="embed-container">
+  <iframe src="https://open.spotify.com/embed/artist/70TpT5Yq8mRwav91mSTKQV?utm_source=generator" width="100%" height="252" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" position: absolute; top: 100; left: 300;></iframe>
+</div>
+</aside>
+
+<aside class=sidebar>
+<p> <img src="https://media.licdn.com/dms/image/v2/D5603AQHVe9nw9N8egg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667016010991?e=1746662400&v=beta&t=JUWxXlNTWOQGgubKqNdIsJ2giGw5p3VJQS7YOOR1WS8" alt="Brandon S" width="300" height="300" >
+bio info
+</p>
+</aside>
 
 </body>
 </html>
--->
 
-<html>
-<head>
-  <link rel="stylesheet" href="Untitled-1.css">
-</head>
-  <body>
-   <p>Hello</p>
-  <h1>kk</h1>
-  </body>
-
-</html>
